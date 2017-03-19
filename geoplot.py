@@ -8,7 +8,7 @@ import folium
 import pandas as pd
 
 
-def scatterplot_map(data, map_opts, out_path):
+def scatter(data, map_opts, out_path):
     """ Creates a folium (Open source tiles) map with circle marker plots, the
         markers having no interactivity.
 
