@@ -17,7 +17,7 @@ def kmeans(train_data, clusters=8):
 
         Outputs:
         cluster_data: A dict where each cluster's center is a key and its
-                      value is a list of all points connected to that center.
+                      value is the qty of points connected to that center.
     """
     # Performs K-Means Clustering
     kmeans = cluster.KMeans(n_clusters=clusters,
